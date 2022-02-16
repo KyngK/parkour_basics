@@ -1,2 +1,2 @@
 # parkour_basics
-Datapack for making parkours!
+A Minecraft datapack that makes it super easy to create parkour courses!
