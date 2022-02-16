@@ -1,0 +1,4 @@
+v1 (13/2/2022): First version of the datapack, just the basics.
+v1.1 (14/2/2022): Added void world generation and structures turned off 
+by default.
+v1.2 (indev): Added join message, help docs, added custom functions folder.

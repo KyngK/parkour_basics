@@ -1,0 +1,22 @@
+future updates:
+- Add creative tools, such as quick respawn?
+- Remove three hours thing in v1.1 changelog and set correct date
+- Replace changelog_url with something functional
+- Add some sort of multiplayer support
+- Replace questions link with something functional
+- Add teleport pads
+- figure out custom functions
+- figure out publishing
+v1.2
+- Add an end lmao
+- Make it so you can't break the emerald block
+- remove advancement thingy
+- split up help pages
+- add level reached sound
+- options menu, with fall damage, trapdoors, speed for admin
+- item for start/stop
+- show chat message for stop when you
+- add help pages folder
+- clear player when you start, store items in chest, restore when you stop
+- better death system
+- change checkpoint to level

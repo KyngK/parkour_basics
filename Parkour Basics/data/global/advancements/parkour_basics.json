@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "KyngK",
+        "description": "",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Name: \"KyngK\", Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTY0NDc3MjgxODQyNCwKICAicHJvZmlsZUlkIiA6ICJlY2YzZWJjNzdkMDE0NTAyOTIyOTExM2U4YThlZTM1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLeW5nSyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmIyYzcwNjZhYTczMGFjNGVkOGQ3YzhiYjYzYzZiMGYzNTQyMmUzMWMwNTk1OTI0NDgzYWU0YTNkYjUyYzY1IgogICAgfQogIH0KfQ==\"}]}}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
