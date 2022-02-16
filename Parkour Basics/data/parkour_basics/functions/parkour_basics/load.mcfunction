@@ -7,6 +7,7 @@ gamerule doInsomnia false
 gamerule mobGriefing false
 gamerule doWeatherCycle false
 gamerule sendCommandFeedback false
+gamerule fallDamage false
 time set day
 summon marker 0.5 -63 0.5 {CustomName:'"start_pos"',CustomNameVisible:0,Tags:["start_pos"]}
 scoreboard objectives add Level dummy "Level"
