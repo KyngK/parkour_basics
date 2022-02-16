@@ -18,5 +18,5 @@ v1.2
 - show chat message for stop when you
 - add help pages folder
 - clear player when you start, store items in chest, restore when you stop
-- better death system
 - change checkpoint to level
+- Change check_start_pos to have clickable event to options **add option to change start pos**
