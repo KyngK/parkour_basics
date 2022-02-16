@@ -9,13 +9,11 @@ future updates:
 - figure out publishing
 v1.2
 - Add an end lmao
-- Make it so you can't break the emerald block
 - remove advancement thingy
 - split up help pages
 - add level reached sound
-- options menu, with fall damage, trapdoors, speed for admin
+- options menu, with fall damage, trapdoors, speed for admin, etc.
 - item for start/stop
-- show chat message for stop when you
 - add help pages folder
 - clear player when you start, store items in chest, restore when you stop
 - change checkpoint to level
