@@ -16,5 +16,6 @@ scoreboard players add @p Level 0
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add ylev dummy "ylev"
 setblock 0 -64 0 emerald_block
+setblock 20 -64 0 netherite_block
 setworldspawn 0 -63 0
 spawnpoint @p 0 -63 0
