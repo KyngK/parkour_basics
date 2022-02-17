@@ -6,3 +6,4 @@ execute at @p[tag=parkour] as @p[tag=parkour] align xyz positioned ~0.5 ~ ~0.5 a
 execute at @e[tag=checkpoint] as @e[tag=checkpoint] run spawnpoint @p[tag=parkour] ~ ~ ~
 execute run scoreboard players add @p[tag=parkour] Level 1
 execute run tellraw @p[tag=parkour] ["",{"text":"You have reached Level ","color":"green"},{"score":{"name":"@p[tag=parkour]","objective":"Level"},"color":"gold"},{"text":"!","color":"green"}]
+playsound minecraft:entity.player.levelup player @p[tag=parkour]
