@@ -1,0 +1,2 @@
+execute if block 20 -64 0 air run tellraw @p ["",{"text":"Hey! You can't break that block, it's the ending block! If you want to change it's position, click ","color":"red"},{"text":"here","color":"gold","clickEvent":{"action":"run_command","value":"/function parkour_basics:parkour_basics/options/change_end_pos"}}]
+execute run setblock 20 -64 0 netherite_block
