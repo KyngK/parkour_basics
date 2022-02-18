@@ -1,2 +1,2 @@
-execute if block 0 -64 0 air run tellraw @p ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!"}]
-execute run setblock 0 -64 0 emerald_block
+execute at @e[tag=start_pos] if block ~ ~-1 ~ air run tellraw @p ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!"}]
+execute at @e[tag=start_pos] run setblock ~ ~-1 ~ emerald_block
