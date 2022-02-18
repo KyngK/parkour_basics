@@ -6,4 +6,3 @@ future updates:
 - Replace questions link with something functional
 - Add teleport pads
 - figure out custom functions
-- figure out publishing

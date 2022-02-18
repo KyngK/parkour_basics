@@ -1,2 +1,2 @@
-execute if block 0 -64 0 air run tellraw @p ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, click ","color":"red"},{"text":"here","color":"gold","clickEvent":{"action":"run_command","value":"/function parkour_basics:parkour_basics/options/change_start_pos"}}]
+execute if block 0 -64 0 air run tellraw @p ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!"}]
 execute run setblock 0 -64 0 emerald_block

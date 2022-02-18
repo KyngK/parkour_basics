@@ -1,0 +1,3 @@
+tellraw @p ["",{"text":"Good job, you completed the parkour! Click ","color":"green"},{"text":"here","color":"gold","clickEvent":{"action":"run_command","value":"/function parkour_basics:parkour_basics/parkour_functions/end_parkour"}},{"text":" to restart","color":"green"}]
+execute at @p[tag=parkour] as @p[tag=parkour] anchored eyes run summon firework_rocket ~ ~1 ~ {FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:2,Colors:[I;2355399,15693434,8223420,6576038,16769863]}]}}}}
+function parkour_basics:parkour_basics/parkour_functions/stop_parkour
