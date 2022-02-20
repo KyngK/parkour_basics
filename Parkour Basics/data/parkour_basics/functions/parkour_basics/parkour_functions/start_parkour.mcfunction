@@ -1,4 +1,4 @@
-function parkour_basics:parkour_basics/stop_parkour
+function parkour_basics:parkour_basics/parkour_functions/stop_parkour
 execute run tag @p add parkour
 execute run gamemode adventure @p[tag=parkour]
 execute run scoreboard players set @p[tag=parkour] Level 0

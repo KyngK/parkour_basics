@@ -16,6 +16,8 @@ scoreboard objectives setdisplay sidebar Level
 scoreboard players add @p Level 0
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add ylev dummy "ylev"
+scoreboard objectives add end_pos dummy
+scoreboard objectives add placed_netherite_block minecraft.used:netherite_block
 setblock 0 -64 0 emerald_block
 setblock 20 -64 0 netherite_block
 setworldspawn 0 -63 0
