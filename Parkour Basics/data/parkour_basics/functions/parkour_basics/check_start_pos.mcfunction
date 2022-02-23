@@ -1,2 +1,2 @@
-execute if entity @p[tag=!changing_start_pos] at @e[tag=start_pos] if block ~ ~-1 ~ air run tellraw @p ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!","color":"red"}]
-execute if entity @p[tag=!changing_start_pos] at @e[tag=start_pos] run setblock ~ ~-1 ~ emerald_block
+execute at @e[tag=start_pos] if block ~ ~-1 ~ air run tellraw @p[tag=admin,tag=start_pos_gone] ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!","color":"red"}]
+execute at @e[tag=start_pos] run setblock ~ ~-1 ~ emerald_block

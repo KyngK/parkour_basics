@@ -1,6 +1,4 @@
 future updates:
-- Add creative tools, such as quick respawn?
-- Remove three hours thing in v1.1 changelog and set correct date
 - Replace changelog_url with something functional
 - Add some sort of multiplayer support
 - Replace questions link with something functional
