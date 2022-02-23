@@ -10,3 +10,4 @@ tellraw @p[tag=parkour] ["",{"text":"You started the parkour! Click ","color":"g
 clear @p
 execute run kill @e[tag=reset]
 execute run kill @e[tag=checkpoint]
+execute at @p[tag=parkour] as @p[tag=parkour] align xyz positioned ~0.5 ~ ~0.5 anchored feet run summon marker ~ ~ ~ {CustomName:'"checkpoint"',CustomNameVisible:0,Tags:["checkpoint"]}
