@@ -28,6 +28,9 @@ scoreboard objectives add placed_netherite_block minecraft.used:netherite_block 
 scoreboard objectives add start_pos dummy "start_pos"
 scoreboard objectives add placed_emerald_block minecraft.used:emerald_block "placed_emerald_block"
 
+# Add admin scoreboard
+scoreboard objectives add admin dummy "admin"
+
 # Place start and end position blocks
 setblock 0 -64 0 emerald_block
 setblock 20 -64 0 netherite_block
@@ -37,6 +40,4 @@ setworldspawn 0 -63 0
 spawnpoint @p 0 -63 0
 
 # Make it so load function doesn't load anymore
-scoreboard objectives add first_time dummy "first_time"
-scoreboard players add #first first_time 1
-say hi
+scoreboard players add #first_time MapData 1

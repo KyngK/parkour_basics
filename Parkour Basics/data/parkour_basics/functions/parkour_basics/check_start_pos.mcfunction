@@ -1,2 +1,2 @@
-execute at @e[tag=start_pos] if block ~ ~-1 ~ air run tellraw @p[tag=admin] ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!","color":"red"}]
+execute at @e[tag=start_pos] if block ~ ~-1 ~ air run tellraw @p[scores={admin=1}] ["",{"text":"Hey! You can't break that block, it's the starting block! If you want to change it's position, place an emerald block somewhere else!","color":"red"}]
 execute at @e[tag=start_pos] run setblock ~ ~-1 ~ emerald_block
