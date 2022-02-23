@@ -31,6 +31,9 @@ scoreboard objectives add placed_emerald_block minecraft.used:emerald_block "pla
 # Add admin scoreboard
 scoreboard objectives add admin dummy "admin"
 
+# Make it so the map isn't published
+scoreboard players set #published MapData 0
+
 # Place start and end position blocks
 setblock 0 -64 0 emerald_block
 setblock 20 -64 0 netherite_block
