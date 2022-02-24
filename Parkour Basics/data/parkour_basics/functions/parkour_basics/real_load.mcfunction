@@ -28,8 +28,9 @@ scoreboard objectives add placed_netherite_block minecraft.used:netherite_block 
 scoreboard objectives add start_pos dummy "start_pos"
 scoreboard objectives add placed_emerald_block minecraft.used:emerald_block "placed_emerald_block"
 
-# Add admin scoreboard
+# Add admin scoreboard and other player based scoreboards
 scoreboard objectives add admin dummy "admin"
+scoreboard objectives add parkour dummy "parkour"
 
 # Make it so the map isn't published
 scoreboard players set #published MapData 0
