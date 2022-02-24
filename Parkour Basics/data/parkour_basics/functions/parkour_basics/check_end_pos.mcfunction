@@ -1,2 +1,2 @@
-execute if entity @p[tag=!changing_end_pos] at @e[tag=end_pos] if block ~ ~-1 ~ air run tellraw @p[scores={admin=1}] ["",{"text":"Hey! You can't break that block, it's the ending block! If you want to change it's position, place a netherite block somewhere else!","color":"red"}]
-execute if entity @p[tag=!changing_end_pos] at @e[tag=end_pos] run setblock ~ ~-1 ~ netherite_block
+execute at @e[tag=end_pos] if block ~ ~-1 ~ air run tellraw @p[scores={admin=1}] ["",{"text":"Hey! You can't break that block, it's the ending block! If you want to change it's position, place a netherite block somewhere else!","color":"red"}]
+execute at @e[tag=end_pos] run setblock ~ ~-1 ~ netherite_block
