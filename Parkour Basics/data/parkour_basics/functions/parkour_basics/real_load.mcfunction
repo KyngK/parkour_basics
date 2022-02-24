@@ -39,8 +39,8 @@ setblock 0 -64 0 emerald_block
 setblock 20 -64 0 netherite_block
 
 #Set spawnpoint
-setworldspawn 0 -63 0
-spawnpoint @p 0 -63 0
+setworldspawn 0 -63 0 -90
+spawnpoint @a 0 -63 0 -90
 
 # Make it so load function doesn't load anymore
 scoreboard players add #first_time MapData 1
