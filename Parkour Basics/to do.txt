@@ -1,6 +1,0 @@
-future updates:
-- Replace changelog_url with something functional
-- Add some sort of multiplayer support
-- Replace questions link with something functional
-- Add teleport pads
-- figure out custom functions
